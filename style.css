@@ -14,10 +14,19 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 #left_side{
     flex: 2;
     display: flex;
     flex-direction: column;
+}
+#logo_text{
+    font-family: "my_font", sans-serif;
+    color:white;
+}
+.logo_band{
+    display: flex;
+    flex-direction: row;
 }
