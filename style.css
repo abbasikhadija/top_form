@@ -22,6 +22,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+div{
+    flex: 1;
+}
 #logo_text{
     font-family: "my_font", sans-serif;
     color:white;
