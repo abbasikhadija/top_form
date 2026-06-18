@@ -25,6 +25,23 @@ body{
 div{
     flex: 1;
 }
+.intro{
+    max-width: 600px;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 2rem;
+}
+
+.intro p{
+    margin-bottom: 2rem;
+}
+.intro p:first-child{
+    margin-bottom: 2rem;
+}
+
+.intro p:nth-child(2){
+    margin-bottom: 0.5rem;
+}
 #logo_text{
     font-family: "my_font", sans-serif;
     color:white;
